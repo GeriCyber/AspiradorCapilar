@@ -146,6 +146,7 @@ textarea.materialize-textarea
 .side-nav li > a
 {
   color: #FFF;
+  font-size: 18px;
 }
 
 .side-nav li > a > i, .side-nav li > a > i.material-icons

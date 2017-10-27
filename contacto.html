@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  	<title>Contacto | Aspirador Capilar de Agua Para Peluquería</title>
+
+  	<!-- CSS  -->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+  	<!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+  	<div class="navbar-fixed">
+	  	<nav class="teal accent-3" role="navigation">
+	    	<div class="nav-wrapper">
+	      		<a id="logo-container" href="#" class="brand-logo center">
+	      			<img src="assets/cropped-logo_p.png" width="150" class="logo-img">
+	      		</a>
+	      		<ul class="right hide-on-med-and-down">
+	        		<li><a href="index.html"><i class="material-icons">home</i></a></li>
+	        		<li><a href="caracteristicas.html">Características</a></li>
+	        		<li><a href="accesorios.html">Accesorios</a></li>
+	        		<li><a href="contacto.html">Contacto</a></li>
+	      		</ul>
+				<ul id="nav-mobile" class="side-nav">
+	        		<li><a href="index.html"><i class="material-icons">home</i></a></li>
+	        		<li><a href="caracteristicas.html">Características</a></li>
+	        		<li><a href="accesorios.html">Accesorios</a></li>
+	        		<li><a href="contacto.html">Contacto</a></li>
+	      		</ul>
+	      		<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+	    	</div>
+	  	</nav>
+	</div>
+	
+	<div class="container contact-section center">
+		<h3 class="wow animated fadeIn">Contacto</h3>
+		<span class="light wow animated fadeIn">Solicitar Información</span>
+		<hr width="10%;">
+		<div class="row">
+	    <form class="col s12" method="post" role="form" action="contacto.php">
+	      <div class="row">
+	        <div class="input-field col s6">
+	          <i class="material-icons prefix">account_circle</i>
+	          <input id="nombre" name="nombre" type="text" class="validate" required>
+	          <label for="nombre" data-error="wrong" data-success="right" class="animated wow fadeIn" data-wow-delay=".2s">Nombre</label>
+	        </div>
+	        <div class="input-field col s6">
+	          <i class="material-icons prefix">email</i>
+	          <input id="email" name="email" type="email" class="validate" required>
+	          <label for=emaile" data-error="wrong" data-success="right" class="animated wow fadeIn" data-wow-delay=".5s">Correo Electrónico</label>
+	        </div>
+	        <div class="input-field col s6">
+	          <i class="material-icons prefix">info</i>
+	          <input id="asunto" name="asunto" type="text" class="validate">
+	          <label for="asunto" data-error="wrong" data-success="right" class="wow animated fadeIn" data-wow-delay=".7s">Asunto</label>
+	        </div>
+	        <div class="input-field col s6">
+	        	<i class="material-icons prefix">message</i>
+		        <textarea id="mensaje" name="mensaje" class="materialize-textarea" required></textarea>
+		        <label for="mensaje" class="animated wow fadeIn" data-wow-delay="1s">Mensaje</label>
+        	</div>
+        	<div class="input-field col m6 s12">
+	        	<p>
+		        	<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" required>
+		      		<label for="filled-in-box" class="animated wow fadeIn" data-wow-delay="1s">He leído y acepto el <a href="aviso-legal.html">Aviso Legal</a></label>
+		      	</p>
+	      	</div>
+			<div class="input-field col m12 s12 wow animated flipInX" data-wow-delay="1s">
+				<p class="center">
+					<button id="send-button" type="submit" name="submit" class="btn-large waves-effect waves-dark teal accent-3 boton">Enviar</button>
+				</p>
+			</div>
+	      </div>
+	    </form>
+	  </div>
+	</div>
+
+	<!--Call Section-->
+     <div class="fixed-action-btn">
+	    <a class="btn-floating btn-large red">
+	      <i class="large material-icons">local_phone</i>
+	    </a>
+    <ul>
+      <li>Llamanos: 965683364</li>
+      <li><a class="btn-floating teal darken-1" href="tel:965683364"><i class="material-icons">phone_in_talk</i></a></li>
+    </ul>
+  </div>
+  <!--FIN Call Section-->
+  	
+	<!--FOOTER-->
+  	<footer class="page-footer teal accent-3">
+    	<div class="footer-copyright">
+      		<div class="container center black-text">
+      			<a href="#" class="black-text">Aspirador Capilar Grupo Aqualai</a> © 2017 | Todos los derechos reservados
+      		</div>
+    	</div>
+  	</footer>
+  	<!--Fin FOOTER-->
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/wow.min.js"></script>
+
+  </body>
+</html>
